@@ -1,0 +1,20 @@
+There are 4 files attached with this Readme
+
+Tokens.txt-->> It contains all the Keywords,Operations,Realations ,Punctuation marks and is dynamic i.e.new things can be added if they follow the pattern <word1(Keyword or etc)> and <word2(symbol)>
+
+test.spl and test2.spl-->>It is the test file for the program
+
+Simplex.java --->> The program which you have to run.
+
+Run using commands
+
+$javac Simplex.java
+$java Simplex <test filename> eg.  $java Simplex test.spl
+----------------------------------------------------------
+Note:
+The program also checks for non valid tokens and prompts "invalid identifier Check!!!""
+
+ After running the command it may show exception after displaying the results,ignore that bounds exception ,its for adding more.
+
+TOKENS.txt AND TEST FILES SHOULD BE IN THE SAME FOLDER 
+

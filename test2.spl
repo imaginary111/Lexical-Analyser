@@ -1,0 +1,14 @@
+Danish square (x:real) {
+ return x * x;
+}
+Main {
+ var y : string;
+ var squ : int;
+ y := 1;
+
+ while y <= 10.2 do
+ {
+ squ := square (y);
+ !squ;
+ }
+}
